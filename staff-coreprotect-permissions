@@ -1,0 +1,96 @@
+# Permissions
+
+The following permissions can be used to restrict functionality within the plugin.
+
+---
+
+## Base Permissions
+
+- **coreprotect.*** _(default: op)_  
+    Allows access to all of the CoreProtect commands.  
+     
+- **coreprotect.inspect** _(default: op)_  
+    Allows access to the CoreProtect inspect command.  
+     
+- **coreprotect.lookup** _(default: op)_  
+    Allows access to the CoreProtect lookup command.  
+     
+- **coreprotect.rollback** _(default: op)_  
+    Allows access to the CoreProtect rollback command.  
+     
+- **coreprotect.restore** _(default: op)_  
+    Allows access to the CoreProtect restore command.  
+     
+- **coreprotect.teleport** _(default: op)_  
+    Allows access to the CoreProtect teleport command.  
+     
+- **coreprotect.help** _(default: op)_  
+    Allows access to the CoreProtect help command.  
+     
+- **coreprotect.purge** _(default: op)_  
+    Allows access to the CoreProtect purge command.  
+     
+- **coreprotect.reload** _(default: op)_  
+    Allows access to the CoreProtect reload command.  
+     
+- **coreprotect.status** _(default: op)_  
+    Allows access to the CoreProtect status command.  
+     
+- **coreprotect.consumer** _(default: op)_  
+    Allows access to the CoreProtect consumer command.  
+     
+- **coreprotect.networking** _(default: op)_  
+    Allows access to the CoreProtect networking API.
+
+---
+
+## Child Permissions
+
+- **coreprotect.lookup.block** _(default: op)_  
+    Can be optionally used as a negative permission to prevent block lookups.  
+     
+- **coreprotect.lookup.chat** _(default: op)_  
+    Can be optionally used as a negative permission to prevent chat lookups.  
+     
+- **coreprotect.lookup.click** _(default: op)_  
+    Can be optionally used as a negative permission to prevent interaction lookups.  
+     
+- **coreprotect.lookup.command** _(default: op)_  
+    Can be optionally used as a negative permission to prevent command lookups.  
+     
+- **coreprotect.lookup.container** _(default: op)_  
+    Can be optionally used as a negative permission to prevent container lookups.  
+     
+- **coreprotect.lookup.inventory** _(default: op)_  
+    Can be optionally used as a negative permission to prevent inventory lookups.  
+     
+- **coreprotect.lookup.item** _(default: op)_  
+    Can be optionally used as a negative permission to prevent item lookups.  
+     
+- **coreprotect.lookup.kill** _(default: op)_  
+    Can be optionally used as a negative permission to prevent entity kill lookups.  
+     
+- **coreprotect.lookup.near** _(default: op)_  
+    Can be optionally used as a negative permission to prevent lookups via the near command.  
+     
+- **coreprotect.lookup.session** _(default: op)_  
+    Can be optionally used as a negative permission to prevent session lookups.  
+     
+- **coreprotect.lookup.sign** _(default: op)_  
+    Can be optionally used as a negative permission to prevent sign lookups.  
+     
+- **coreprotect.lookup.username** _(default: op)_  
+    Can be optionally used as a negative permission to prevent username change lookups.
+
+---
+
+## Command Handler
+
+- **coreprotect.co** _(default: true)_  
+    Allows access to the CoreProtect "/co" command.  
+     
+- **coreprotect.core** _(default: false)_  
+    Allows access to the CoreProtect "/core" command.  
+     
+- **coreprotect.coreprotect** _(default: false)_  
+    Allows access to the CoreProtect "/coreprotect" command.

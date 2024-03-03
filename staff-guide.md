@@ -1,6 +1,20 @@
 # 🔥 Firestarter Staff Guide
 This guide outlines everything you need to know as a moderator on Firestarter. Remember, your main job as a moderator is to enforce our rules and be unbaised in your handling of situations.
 
+## Staff Plugins
+There are a number of plugins that are available to staff members, which are listed at (staff-plugins.md).
+
+## Common Commands
+- Connecting with `shh.firestartermc.com` will join you in vanish
+- vanish/unvanish with `/v` or `/vanish`
+- `/co i` - Toggle inspector
+- `/co lookup <params>`  - Lookup within specified time (?fill this out)
+- `/gmsp` - Toggle spectator mode or specify game mode to switch to `<survival|creative|adventure|spectator>`
+- `/openinv` - view player's inventory, even if they're offline
+- `/openender` - similar to above except enderchest
+- `/history`, `/ban`, `/mute`, `/warn` - self explanatory
+- `/alts <username>` - look up potential alts of a player
+
 ## Punishment Guideline
 These are our standard punishment lengths for bans and mutes on the server. To check for repeated offenses, use `/history <username>`. After banning, if the player is in our Discord, make sure to give them the banned role.
 
